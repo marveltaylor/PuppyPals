@@ -3,8 +3,8 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
- console.log(puppyList)
  const [puppies, setPuppies] = useState(puppyList)
+ console.log(puppies)
   return (
     <>
     <h1>Test</h1>
