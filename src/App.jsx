@@ -7,7 +7,7 @@ function App() {
  console.log(puppies)
   return (
     <>
-    <h1>Test</h1>
+    <h1>Puppies</h1>
     { 
    puppies.map((puppy) => {
      return <p>{puppy.name}</p>
