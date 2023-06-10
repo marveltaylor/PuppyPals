@@ -4,6 +4,7 @@ import './App.css'
 
 function App() {
  const [puppies, setPuppies] = useState(puppyList)
+ const [featPupId, setFeatPupId] = useState(null)
  console.log("puppyList: ", puppyList);
   return (
     <>
