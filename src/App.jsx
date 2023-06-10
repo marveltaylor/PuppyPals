@@ -4,17 +4,19 @@ import './App.css'
 
 function App() {
  const [puppies, setPuppies] = useState(puppyList)
- console.log(puppies)
+ console.log("puppyList: ", puppyList);
   return (
     <>
     <h1>Puppies</h1>
-    { 
-   puppies.map((puppy) => {
-     return <p>{puppy.name}</p>
-   })
-}
+    <div className="App">
+      {
+        puppies.map((puppy) => {
+          return <p key={puppy.id}>{puppy.name}</p>;
+        })
+      }
+    </div>
     </>
-  )
+  );
 }
 
 export default App
