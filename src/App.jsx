@@ -16,6 +16,7 @@ function App() {
         })
       }
     </div>
+   {featPupId && <p>{featPupId}</p> }
     </>
   );
 }
