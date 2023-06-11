@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       {
         puppies.map((puppy) => {
-          return <p onClick={()=>{}} key={puppy.id}>{puppy.name}</p>;
+          return <p onClick={()=>{console.log("puppy id: ", puppy.id)}} key={puppy.id}>{puppy.name}</p>;
         })
       }
     </div>
